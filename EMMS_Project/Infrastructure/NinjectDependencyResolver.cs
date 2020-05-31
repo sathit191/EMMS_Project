@@ -5,10 +5,11 @@ using System.Linq;
 using System.Web;
 using EMMS_Project.Abstract;
 using EMMS_Project.Concrete;
+using System.Web.Mvc;
 
 namespace EMMS_Project.Infrastructure
 {
-    public class NinjectDependencyResolver
+    public class NinjectDependencyResolver : IDependencyResolver
     {
         private IKernel kernel;
 

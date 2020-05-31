@@ -7,7 +7,7 @@ using EMMS_Project.Models;
 
 namespace EMMS_Project.Abstract
 {
-    interface INormalRepository
+    public interface INormalRepository
     {
         IEnumerable<User> UserData { get; }
     }
